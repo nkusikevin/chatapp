@@ -1,0 +1,51 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url('../img/wallpaperflare.com_wallpaper.jpg')
+
+}
+.box{
+    padding: 40px;
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,50%);
+    text-align: center;
+}
+.box button{
+    border:0;
+    background:none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border: 2px solid  #2ecc71;
+    padding: 14px 40px;
+    width:200px ;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    transition:0.25s;
+    cursor: pointer;
+
+}
+.box button:hover{
+background: #2ecc71 ;
+}
+P{
+    text-align: center;
+    color: white;
+}
+.title{
+    text-align: center;
+    font-size: 90px;
+   
+}
+
+#footer-content{
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    height: 35px;
+    padding: 8px;
+}

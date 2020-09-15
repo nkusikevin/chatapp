@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>admin</h1>
+    <script id="admin" type="text/html"> 
+          <ul class="users">
+        {{#usr}}
+        <li>{{id}}</li>
+        <li>{{username}}</li>
+        <li>{{room}}</li>
+        {{/usr}}
+    </ul>
+    </script>
+    <script src="js/mustache.min.js"></script>
+    <script src="/js/chat.js"></script>
+</body>
+</html>
