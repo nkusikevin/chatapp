@@ -13,8 +13,8 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node index.js"
+    
   },
   "keywords": [
     "chat",
